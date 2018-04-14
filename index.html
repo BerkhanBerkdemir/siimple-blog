@@ -4,21 +4,28 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css">
-    <style media="screen">
+    <style>
       hr.article {
         border: 0;
         height: 1px;
         background: #333;
-        background-image: linear-gradient(to right, #ccc, #333, #ccc);
-      }
-      .center-it {
-        display: flex;
-        justify-content: center;
+        background-image: linear-gradient(to right, #ccc, #333, #444);
       }
       .siimple-footer >
       .siimple-grid >
       .siimple-grid-col > a.siimple-link {
         color: #fff;
+      }
+      .date {
+        padding-left: 10px;
+      }
+      .container {
+        padding: 20px;
+        height: 100%;
+      }
+      .siimple-footer {
+        bottom: 0;
+        height: 10px;
       }
     </style>
   </head>
@@ -34,35 +41,27 @@
         <a class="siimple-navbar-link" href="#">Link 2</a>
       </div>
     </div> <!-- ./siimple-navbar -->
-    <div class="siimple-grid">
-      <div class="siimple-jumbotron siimple-jumbotron--medium">
-        <div class="siimple-jumbotron-title">Welcome page</div>
-        <div class="siimple-jumbotron-subtitle">This is the subtitle</div>
-        <div class="siimple-jumbotron-detail">And this is the detail of the jumbotron element</div>
-      </div>
-    </div> <!-- ./siimple-grid -->
-    <div class="siimple-grid">
-      <div class="siimple-grid-row center-it">
-        <div class="siimple-grid-col siimple-grid-col--6">
-          Published: <time>April 12, 2018</time><br>
-          <h2><a href="#" class="siimple-link">Lorem ipsum dolor sit amet</a></h2>
-          <hr class="article">
-        </div>
-      </div>
-      <div class="siimple-grid-row center-it">
-        <div class="siimple-grid-col siimple-grid-col--6">
-          Published: <time>April 12, 2018</time><br>
-          <h2><a href="#" class="siimple-link">Lorem ipsum dolor sit amet</a></h2>
-          <hr class="article">
-        </div>
-      </div>
-      <div class="siimple-grid-row center-it">
-        <div class="siimple-grid-col siimple-grid-col--6">
-          Published: <time>April 12, 2018</time><br>
-          <h2><a href="#" class="siimple-link">Lorem ipsum dolor sit amet</a></h2>
-        </div>
-      </div>
-    </div> <!-- ./siimple-grid -->
+    <div class="container">
+      <div class="siimple-content siimple-content--small">
+        <span class="date"><time>April 12, 2018</time></span><br>
+        <h2><a href="#" class="siimple-link">Lorem ipsum dolor sit amet</a></h2>
+        <hr class="article">
+      </div> <!-- ./siimple-content -->
+      <div class="siimple-content siimple-content--small">
+        <span class="date"><time>April 12, 2018</time></span><br>
+        <h2><a href="#" class="siimple-link">Lorem lorem, ispum sit, amet sit</a></h2>
+        <hr class="article">
+      </div> <!-- ./siimple-content -->
+      <div class="siimple-content siimple-content--small">
+        <span class="date"><time>April 12, 2018</time></span><br>
+        <h2><a href="#" class="siimple-link">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h2>
+        <hr class="article">
+      </div> <!-- ./siimple-content -->
+      <div class="siimple-content siimple-content--small">
+        <span class="date"><time>April 12, 2018</time></span><br>
+        <h2><a href="#" class="siimple-link">Lorem sit ipsum lu sit amet ipsum</a></h2>
+      </div> <!-- ./siimple-content -->
+    </div> <!-- ./container -->
     <div class="siimple-footer siimple-footer--medium siimple-footer--navy" align="center">
       <div class="siimple-grid">
         <div class="siimple-grid-col siimple-grid-col--4">
