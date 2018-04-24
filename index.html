@@ -2,78 +2,137 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css">
-    <style>
-      hr.article {
-        border: 0;
-        height: 1px;
-        background: #333;
-        background-image: linear-gradient(to right, #ccc, #333, #444);
-      }
-      .siimple-footer >
-      .siimple-grid >
-      .siimple-grid-col > a.siimple-link {
-        color: #fff;
-      }
-      .date {
-        padding-left: 10px;
-      }
-      .container {
-        padding: 20px;
-        height: 100%;
-      }
-      .siimple-footer {
-        bottom: 0;
-        height: 10px;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Siimple blog</title>
+
+    <meta name="author" content="Berkhan Berkdemir">
+    <meta name="description" content="Examle Siimple blog">
+    <meta name="keywords" content="example, siimple, blog, theme">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css" integrity="sha256-vwSHib+22u3kQ8TXL6BRxf9jhcjGtwg7dgqi1vvZ62w=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.12.0/build/styles/default.min.css">
   </head>
   <body>
-    <div class="siimple-navbar siimple-navbar--medium siimple-navbar--grey">
-      <div class="siimple-layout--left">
-        <div class="siimple-navbar-title">
-            Siimple blog
-        </div> <!-- ./siimple-navbar-title -->
+    <div class="siimple-layout">
+      <div class="siimple-navbar siimple-navbar--navy siimple-navbar--large">
+        <div class="siimple-layout--left">
+          <a class="siimple-navbar-title">Blog template</a>
+          <a class="siimple-navbar-subtitle">Example</a>
+        </div>
+
+        <div class="siimple-layout--right">
+          <a class="siimple-navbar-link" href="#">Link 1</a>
+          <a class="siimple-navbar-link" href="#">Link 2</a>
+        </div>
       </div>
-      <div class="siimple-layout--right">
-        <a class="siimple-navbar-link" href="index.html">Homepage</a>
-        <a class="siimple-navbar-link" href="#">Link 2</a>
+
+      <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large">
+        <div class="siimple-jumbotron-title">Welcome page</div>
       </div>
-    </div> <!-- ./siimple-navbar -->
-    <div class="container">
-      <div class="siimple-content siimple-content--small">
-        <span class="date"><time>April 12, 2018</time></span><br>
-        <h2><a href="#" class="siimple-link">Lorem ipsum dolor sit amet</a></h2>
-        <hr class="article">
-      </div> <!-- ./siimple-content -->
-      <div class="siimple-content siimple-content--small">
-        <span class="date"><time>April 12, 2018</time></span><br>
-        <h2><a href="#" class="siimple-link">Lorem lorem, ispum sit, amet sit</a></h2>
-        <hr class="article">
-      </div> <!-- ./siimple-content -->
-      <div class="siimple-content siimple-content--small">
-        <span class="date"><time>April 12, 2018</time></span><br>
-        <h2><a href="#" class="siimple-link">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h2>
-        <hr class="article">
-      </div> <!-- ./siimple-content -->
-      <div class="siimple-content siimple-content--small">
-        <span class="date"><time>April 12, 2018</time></span><br>
-        <h2><a href="#" class="siimple-link">Lorem sit ipsum lu sit amet ipsum</a></h2>
-      </div> <!-- ./siimple-content -->
-    </div> <!-- ./container -->
-    <div class="siimple-footer siimple-footer--medium siimple-footer--navy" align="center">
-      <div class="siimple-grid">
-        <div class="siimple-grid-col siimple-grid-col--4">
-          <a href="#" class="siimple-link">About Siimple</a>
+    </div>
+
+    <div class="siimple-content--medium">
+      <!-- TODO: Add Italic, Bold -->
+      <h2 class="siimple-h2">Blog entry 1</h2>
+        <p class="siimple-p">Lorem ipsum dolor sit amet, <strong>consectetur</strong> <i>adipiscing</i> <b>elit</b>, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua. <a class="siimple-link" href="#">Ut enim ad</a> minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip <small class="siimple-small">ex</small>
+            ea commodo consequat.</p>
+        <p class="siimple-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+        <p class="siimple-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex
+            ea commodo consequat.</p>
+        <p class="siimple-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+
+        <h2 class="siimple-h2">Blog entry 2</h2>
+        <p class="siimple-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, <code class="siimple-code">quis nostrud exercitation</code> ullamco laboris nisi ut
+            aliquip ex
+            ea commodo consequat.</p>
+        <blockquote class="siimple-blockquote">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</blockquote>
+        <pre><code class="ruby"># siimple-pre
+# Thank you highlightjs
+
+class Person
+  attr_reader :name, :age
+  def initialize(name, age)
+    @name, @age = name, age
+  end
+  def <=>(person) # the comparison operator for sorting
+    @age <=> person.age
+  end
+  def to_s
+    "#{@name} (#{@age})"
+  end
+end
+
+group = [
+  Person.new("Bob", 33),
+  Person.new("Chris", 16),
+  Person.new("Ash", 23)
+]
+
+puts group.sort.reverse</code></pre>
+        <p class="siimple-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+
+        <h2 class="siimple-h2">Blog entry 3</h2>
+        <p class="siimple-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex
+            ea commodo consequat.</p>
+        <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit...
         </div>
-        <div class="siimple-grid-col siimple-grid-col--4">
-          Made with love by siimple
-        </div>
-        <div class="siimple-grid-col siimple-grid-col--4">
-          Copyright 2018, BB
-        </div>
-      </div> <!-- ./siimple-grid -->
-    </div> <!-- ./siimple-footer -->
+        <p class="siimple-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+        <p class="siimple-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex
+            ea commodo consequat.</p>
+        <p class="siimple-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <hr>
+
+    <div class="siimple-content--small">
+      <div class="siimple-form-field">
+        <div class="siimple-form-field-label">Your email</div>
+          <input type="text" class="siimple-input siimple-input--fluid" required placeholder="you@company.com">
+        <div class="siimple-form-field-helper">This field can't be empty</div>
+      </div>
+      <div class="siimple-form-field">
+        <div class="siimple-form-field-label">Your comment</div>
+          <textarea class="siimple-textarea siimple-textarea--fluid" required></textarea>
+        <div class="siimple-form-field-helper">This field can't be empty</div>
+      </div>
+      <div class="siimple-form-field">
+        <div class="siimple-btn siimple-btn--blue">Send your idea</div>
+      </div>
+    </div>
+
+    <div class="siimple-footer siimple-footer--grey siimple-footer--large" align="center">
+        Made with love by <a class="siimple-link" href="https://siimple.xyz">siimple</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.12.0/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
